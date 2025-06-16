@@ -1,130 +1,126 @@
-"""
-Quick test script to verify the PC Jewellers scraper setup and basic functionality.
-"""
-
-import sys
+import json
+import os
+import time
+import random
+import requests
+import cloudscraper
+from bs4 import BeautifulSoup
+from fake_useragent import UserAgent
 import logging
-from pc_jewellers_scraper_selenium import PCJewellersScraper
-from config import BASE_URL, CATEGORIES
+from urllib.parse import urljoin
 
-def test_basic_setup():
-    """Test basic scraper setup."""
-    print("🔧 Testing basic scraper setup...")
-    
-    try:
-        scraper = PCJewellersScraper()
-        print("✅ Scraper initialized successfully")
-        return True
-    except Exception as e:
-        print(f"❌ Scraper initialization failed: {str(e)}")
-        return False
+# Configure logging
+logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
+logger = logging.getLogger(__name__)
 
-def test_webdriver():
-    """Test WebDriver creation."""
-    print("🌐 Testing WebDriver setup...")
-    
-    try:
-        scraper = PCJewellersScraper()
-        driver = scraper.create_driver()
+class QuickTester:
+    def __init__(self):
+        self.ua = UserAgent()
+        self.cloudscraper_session = cloudscraper.create_scraper(
+            browser={'browser': 'chrome', 'platform': 'linux', 'desktop': True}
+        )
         
-        # Test navigation to main page
-        driver.get(BASE_URL)
-        title = driver.title
-        print(f"✅ WebDriver working. Page title: {title[:50]}...")
-        
-        driver.quit()
-        return True
-    except Exception as e:
-        print(f"❌ WebDriver test failed: {str(e)}")
-        return False
-
-def test_single_category():
-    """Test scraping a single category with limited products."""
-    print("📦 Testing single category scraping...")
-    
-    try:
-        scraper = PCJewellersScraper()
-        
-        # Modify config for testing - limit products
-        from config import SCRAPING_CONFIG
-        original_limit = SCRAPING_CONFIG["max_products_per_category"]
-        SCRAPING_CONFIG["max_products_per_category"] = 5  # Limit to 5 products for testing
-        
-        # Test with first category
-        test_category = CATEGORIES[0]
-        print(f"Testing category: {test_category['name']}")
-        
-        products = scraper.scrape_category(test_category)
-        
-        print(f"✅ Scraped {len(products)} products from {test_category['name']}")
-        
-        if products:
-            sample_product = products[0]
-            print("Sample product:")
-            for key, value in sample_product.items():
-                print(f"  {key}: {str(value)[:50]}...")
-        
-        # Restore original limit
-        SCRAPING_CONFIG["max_products_per_category"] = original_limit
-        
-        return len(products) > 0
-        
-    except Exception as e:
-        print(f"❌ Category scraping test failed: {str(e)}")
-        return False
-
-def run_all_tests():
-    """Run all tests."""
-    print("🚀 PC Jewellers Scraper Test Suite")
-    print("=" * 50)
-    
-    tests = [
-        ("Basic Setup", test_basic_setup),
-        ("WebDriver", test_webdriver),
-        ("Single Category", test_single_category)
-    ]
-    
-    results = []
-    
-    for test_name, test_func in tests:
-        print(f"\n{test_name} Test:")
+    def test_category_access(self, url):
+        """Test if we can access a category page"""
         try:
-            result = test_func()
-            results.append((test_name, result))
+            response = self.cloudscraper_session.get(url, timeout=30)
+            if response.status_code == 200:
+                soup = BeautifulSoup(response.content, 'html.parser')
+                title = soup.find('title')
+                logger.info(f"✅ SUCCESS: {url}")
+                logger.info(f"   📄 Title: {title.text[:100] if title else 'No title'}")
+                
+                # Look for product links
+                product_links = []
+                selectors = ['a[href*="product"]', 'a[href*=".html"] img', '.product-item a']
+                for selector in selectors:
+                    links = soup.select(selector)
+                    for link in links[:5]:  # Just first 5
+                        href = link.get('href')
+                        if href and 'product' in href.lower():
+                            if href.startswith('/'):
+                                href = urljoin("https://www.pcjeweller.com", href)
+                            product_links.append(href)
+                
+                logger.info(f"   🔗 Found {len(product_links)} potential product links")
+                return True, product_links[:3]  # Return first 3 for testing
+                
+            else:
+                logger.error(f"❌ FAILED: {url} - Status: {response.status_code}")
+                return False, []
+                
         except Exception as e:
-            print(f"❌ {test_name} test crashed: {str(e)}")
-            results.append((test_name, False))
+            logger.error(f"❌ ERROR: {url} - {str(e)}")
+            return False, []
     
-    # Summary
-    print("\n" + "=" * 50)
-    print("TEST SUMMARY")
-    print("=" * 50)
+    def test_product_page(self, url):
+        """Test if we can scrape a product page"""
+        try:
+            response = self.cloudscraper_session.get(url, timeout=30)
+            if response.status_code == 200:
+                soup = BeautifulSoup(response.content, 'html.parser')
+                
+                # Extract basic info
+                title = soup.find('title')
+                price_elem = soup.select_one('.price, .amount, [class*="price"]')
+                image_elem = soup.select_one('img[src*="product"], .product-image img')
+                
+                logger.info(f"✅ PRODUCT SUCCESS: {url}")
+                logger.info(f"   📄 Title: {title.text[:100] if title else 'No title'}")
+                logger.info(f"   💰 Price found: {'Yes' if price_elem else 'No'}")
+                logger.info(f"   🖼️  Image found: {'Yes' if image_elem else 'No'}")
+                
+                return True
+            else:
+                logger.error(f"❌ PRODUCT FAILED: {url} - Status: {response.status_code}")
+                return False
+                
+        except Exception as e:
+            logger.error(f"❌ PRODUCT ERROR: {url} - {str(e)}")
+            return False
+
+def run_tests():
+    tester = QuickTester()
     
-    passed = 0
-    total = len(results)
+    # Load priority categories
+    with open('priority_categories.json', 'r') as f:
+        categories = json.load(f)
     
-    for test_name, result in results:
-        status = "✅ PASS" if result else "❌ FAIL"
-        print(f"{test_name}: {status}")
-        if result:
-            passed += 1
+    logger.info("🧪 TESTING SCRAPING CAPABILITIES")
+    logger.info("=" * 50)
     
-    print(f"\nResults: {passed}/{total} tests passed")
+    successful_categories = []
     
-    if passed == total:
-        print("🎉 All tests passed! The scraper is ready to use.")
-        print("\nNext steps:")
-        print("1. Run the full scraper: python pc_jewellers_scraper_selenium.py")
-        print("2. Check the 'data' folder for scraped results")
-        print("3. Use data_analyzer.py to analyze the results")
+    # Test a few categories
+    test_categories = ['rings', 'necklaces', 'earrings']
+    
+    for category in test_categories:
+        if category in categories:
+            logger.info(f"\n🔍 Testing category: {category.upper()}")
+            category_urls = categories[category][:2]  # Test first 2 URLs
+            
+            for url in category_urls:
+                success, product_links = tester.test_category_access(url)
+                if success:
+                    successful_categories.append(category)
+                    
+                    # Test one product page
+                    if product_links:
+                        logger.info(f"   🧪 Testing product page...")
+                        tester.test_product_page(product_links[0])
+                
+                time.sleep(2)  # Be respectful
+    
+    logger.info(f"\n📊 TEST RESULTS:")
+    logger.info(f"✅ Successful categories: {len(set(successful_categories))}")
+    logger.info(f"📋 Categories tested: {len(test_categories)}")
+    
+    if successful_categories:
+        logger.info("🚀 Ready to start full scraping!")
+        return True
     else:
-        print("⚠️  Some tests failed. Check the errors above.")
-    
-    return passed == total
+        logger.info("❌ Need to adjust scraping strategy")
+        return False
 
 if __name__ == "__main__":
-    # Set up basic logging
-    logging.basicConfig(level=logging.WARNING)  # Reduce log noise during testing
-    
-    success = run_all_tests()
-    sys.exit(0 if success else 1)
+    run_tests()

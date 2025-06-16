@@ -1,0 +1,1034 @@
+[
+  {
+    "url": "tel:1800-120-1434",
+    "text": "1800-120-1434",
+    "title": "",
+    "className": "font-medium light rmv-marigin-left margin-right"
+  },
+  {
+    "url": "https://corporate.pcjeweller.com/careers/",
+    "text": "Careers",
+    "title": "",
+    "className": ""
+  },
+  {
+    "url": "https://www.pcjeweller.com/corporate-gifting.html",
+    "text": "Corporate Gifting",
+    "title": "",
+    "className": "light "
+  },
+  {
+    "url": "https://pcjeweller.woohoo.in/",
+    "text": "Gift Cards",
+    "title": "",
+    "className": "light gift"
+  },
+  {
+    "url": "https://corporate.pcjeweller.com/store-locator/",
+    "text": "Store Locator",
+    "title": "",
+    "className": "light"
+  },
+  {
+    "url": "https://corporate.pcjeweller.com/",
+    "text": "Corporate",
+    "title": "",
+    "className": "light "
+  },
+  {
+    "url": "https://corporate.pcjeweller.com/franchise-business/",
+    "text": "Franchise With Us",
+    "title": "",
+    "className": "light "
+  },
+  {
+    "url": "https://corporate.pcjeweller.com/investors/",
+    "text": "Investors",
+    "title": "",
+    "className": "light "
+  },
+  {
+    "url": "https://www.pcjeweller.com/",
+    "text": "",
+    "title": "PCJeweller",
+    "className": "img-responsive visible-xs visible-sm mobilelogo"
+  },
+  {
+    "url": "https://www.pcjeweller.com/cart/popup",
+    "text": "0",
+    "title": "",
+    "className": "icon-deal-purchase head-links cart-short"
+  },
+  {
+    "url": "https://www.pcjeweller.com/user/wishlist/",
+    "text": "",
+    "title": "",
+    "className": "wish-list hidden-xs hidden-sm icon-wishlist head-links pull-right popuplogin"
+  },
+  {
+    "url": "https://www.pcjeweller.com/jewellery/rings.html",
+    "text": "Rings",
+    "title": "",
+    "className": ""
+  },
+  {
+    "url": "https://www.pcjeweller.com/jewellery/best-seller/rings.html",
+    "text": "",
+    "title": "",
+    "className": ""
+  },
+  {
+    "url": "https://www.pcjeweller.com/jewellery/daily-wear-rings.html",
+    "text": "Daily Wear",
+    "title": "",
+    "className": ""
+  },
+  {
+    "url": "https://www.pcjeweller.com/jewellery/engagement-rings.html",
+    "text": "Engagement",
+    "title": "",
+    "className": ""
+  },
+  {
+    "url": "https://www.pcjeweller.com/jewellery/solitaire-rings.html",
+    "text": "Solitaire",
+    "title": "",
+    "className": ""
+  },
+  {
+    "url": "https://www.pcjeweller.com/jewellery/cocktail-rings.html",
+    "text": "Cocktail",
+    "title": "",
+    "className": ""
+  },
+  {
+    "url": "https://www.pcjeweller.com/jewellery/office-wear-rings.html",
+    "text": "Office Wear",
+    "title": "",
+    "className": ""
+  },
+  {
+    "url": "https://www.pcjeweller.com/jewellery/men-rings.html",
+    "text": "Men's",
+    "title": "",
+    "className": ""
+  },
+  {
+    "url": "https://www.pcjeweller.com/jewellery/bands.html",
+    "text": "Bands",
+    "title": "",
+    "className": ""
+  },
+  {
+    "url": "https://www.pcjeweller.com/jewellery/initial-rings.html",
+    "text": "Initials",
+    "title": "",
+    "className": ""
+  },
+  {
+    "url": "https://www.pcjeweller.com/jewellery/floral-rings.html",
+    "text": "Floral",
+    "title": "",
+    "className": ""
+  },
+  {
+    "url": "https://www.pcjeweller.com/jewellery/heart-rings.html",
+    "text": "Hearts",
+    "title": "",
+    "className": ""
+  },
+  {
+    "url": "https://www.pcjeweller.com/jewellery/round-rings.html",
+    "text": "Round",
+    "title": "",
+    "className": ""
+  },
+  {
+    "url": "https://www.pcjeweller.com/jewellery/square-rings.html",
+    "text": "Square",
+    "title": "",
+    "className": ""
+  },
+  {
+    "url": "https://www.pcjeweller.com/jewellery/triangle-rings.html",
+    "text": "Triangle",
+    "title": "",
+    "className": ""
+  },
+  {
+    "url": "https://www.pcjeweller.com/jewellery/below-10K-rings.html",
+    "text": "Below 10K",
+    "title": "",
+    "className": ""
+  },
+  {
+    "url": "https://www.pcjeweller.com/jewellery/10kto20k-rings.html",
+    "text": "10K - 20K",
+    "title": "",
+    "className": ""
+  },
+  {
+    "url": "https://www.pcjeweller.com/jewellery/20kto30k-rings.html",
+    "text": "20K - 30K",
+    "title": "",
+    "className": ""
+  },
+  {
+    "url": "https://www.pcjeweller.com/jewellery/30kto50k-rings.html",
+    "text": "30K - 50K",
+    "title": "",
+    "className": ""
+  },
+  {
+    "url": "https://www.pcjeweller.com/jewellery/above-50k-rings.html",
+    "text": "Above 50K",
+    "title": "",
+    "className": ""
+  },
+  {
+    "url": "https://www.pcjeweller.com/jewellery/diamond-rings.html",
+    "text": "Diamond",
+    "title": "",
+    "className": ""
+  },
+  {
+    "url": "https://www.pcjeweller.com/jewellery/gold-rings.html",
+    "text": "Gold",
+    "title": "",
+    "className": ""
+  },
+  {
+    "url": "https://www.pcjeweller.com/jewellery/gemstone-rings.html",
+    "text": "Gemstone",
+    "title": "",
+    "className": ""
+  },
+  {
+    "url": "https://www.pcjeweller.com/jewellery/silver-rings.html",
+    "text": "Silver",
+    "title": "",
+    "className": ""
+  },
+  {
+    "url": "https://www.pcjeweller.com/jewellery/earrings.html",
+    "text": "Earrings",
+    "title": "",
+    "className": ""
+  },
+  {
+    "url": "https://www.pcjeweller.com/jewellery/stud-earrings.html",
+    "text": "Stud",
+    "title": "",
+    "className": ""
+  },
+  {
+    "url": "https://www.pcjeweller.com/jewellery/drop-earrings.html",
+    "text": "Drop",
+    "title": "",
+    "className": ""
+  },
+  {
+    "url": "https://www.pcjeweller.com/jewellery/hoops-earrings.html",
+    "text": "Hoops",
+    "title": "",
+    "className": ""
+  },
+  {
+    "url": "https://www.pcjeweller.com/jewellery/jhumkas-earrings.html",
+    "text": "Jhumkas",
+    "title": "",
+    "className": ""
+  },
+  {
+    "url": "https://www.pcjeweller.com/jewellery/sui-dhaga.html",
+    "text": "Sui Dhaga",
+    "title": "",
+    "className": ""
+  },
+  {
+    "url": "https://www.pcjeweller.com/jewellery/ear-cuffs.html",
+    "text": "Ear Cuffs",
+    "title": "",
+    "className": ""
+  },
+  {
+    "url": "https://www.pcjeweller.com/jewellery/heart-earrings.html",
+    "text": "Heart",
+    "title": "",
+    "className": ""
+  },
+  {
+    "url": "https://www.pcjeweller.com/jewellery/oval-earrings.html",
+    "text": "Oval",
+    "title": "",
+    "className": ""
+  },
+  {
+    "url": "https://www.pcjeweller.com/jewellery/round-earrings.html",
+    "text": "Round",
+    "title": "",
+    "className": ""
+  },
+  {
+    "url": "https://www.pcjeweller.com/jewellery/square-earrings.html",
+    "text": "Square",
+    "title": "",
+    "className": ""
+  },
+  {
+    "url": "https://www.pcjeweller.com/jewellery/triangle-earrings.html",
+    "text": "Triangle",
+    "title": "",
+    "className": ""
+  },
+  {
+    "url": "https://www.pcjeweller.com/jewellery/leaves-and-flowers.html",
+    "text": "Leaves & Flowers",
+    "title": "",
+    "className": ""
+  },
+  {
+    "url": "https://www.pcjeweller.com/jewellery/below-10k-earrings.html",
+    "text": "Below 10K",
+    "title": "",
+    "className": ""
+  },
+  {
+    "url": "https://www.pcjeweller.com/jewellery/10kto20k-earrings.html",
+    "text": "10K - 20K",
+    "title": "",
+    "className": ""
+  },
+  {
+    "url": "https://www.pcjeweller.com/jewellery/20kto30k-earrings.html",
+    "text": "20K - 30K",
+    "title": "",
+    "className": ""
+  },
+  {
+    "url": "https://www.pcjeweller.com/jewellery/30kto50k-earrings.html",
+    "text": "30K - 50K",
+    "title": "",
+    "className": ""
+  },
+  {
+    "url": "https://www.pcjeweller.com/jewellery/above-50k-earrings.html",
+    "text": "Above 50K",
+    "title": "",
+    "className": ""
+  },
+  {
+    "url": "https://www.pcjeweller.com/jewellery/diamond-earrings.html",
+    "text": "Diamond",
+    "title": "",
+    "className": ""
+  },
+  {
+    "url": "https://www.pcjeweller.com/jewellery/gold-earrings.html",
+    "text": "Gold",
+    "title": "",
+    "className": ""
+  },
+  {
+    "url": "https://www.pcjeweller.com/jewellery/gemstone-earrings.html",
+    "text": "Gemstone",
+    "title": "",
+    "className": ""
+  },
+  {
+    "url": "https://www.pcjeweller.com/jewellery/best-sellers.html",
+    "text": "Best Sellers",
+    "title": "",
+    "className": ""
+  },
+  {
+    "url": "https://www.pcjeweller.com/jewellery/best-seller/earrings.html",
+    "text": "Earrings",
+    "title": "",
+    "className": ""
+  },
+  {
+    "url": "https://www.pcjeweller.com/jewellery/best-seller/pendants.html",
+    "text": "Pendants",
+    "title": "",
+    "className": ""
+  },
+  {
+    "url": "https://www.pcjeweller.com/jewellery/best-seller/nose-pin.html",
+    "text": "Nose Pin",
+    "title": "",
+    "className": ""
+  },
+  {
+    "url": "https://www.pcjeweller.com/jewellery/best-sellers/under10k",
+    "text": "Below 10K",
+    "title": "",
+    "className": ""
+  },
+  {
+    "url": "https://www.pcjeweller.com/jewellery/best-seller/10k-20k.html",
+    "text": "10K - 20K",
+    "title": "",
+    "className": ""
+  },
+  {
+    "url": "https://www.pcjeweller.com/jewellery/best-seller/20k-30k.html",
+    "text": "20K - 30K",
+    "title": "",
+    "className": ""
+  },
+  {
+    "url": "https://www.pcjeweller.com/jewellery/best-seller/30k-50k.html",
+    "text": "30K - 50K",
+    "title": "",
+    "className": ""
+  },
+  {
+    "url": "https://www.pcjeweller.com/jewellery/best-seller/above-50k.html",
+    "text": "Above 50K",
+    "title": "",
+    "className": ""
+  },
+  {
+    "url": "https://www.pcjeweller.com/jewellery/best-sellers/diamond.html",
+    "text": "Diamond",
+    "title": "",
+    "className": ""
+  },
+  {
+    "url": "https://www.pcjeweller.com/jewellery/best-sellers/gold.html",
+    "text": "Gold",
+    "title": "",
+    "className": ""
+  },
+  {
+    "url": "https://www.pcjeweller.com/jewellery/gold-pendants.html",
+    "text": "Pendants",
+    "title": "",
+    "className": ""
+  },
+  {
+    "url": "https://www.pcjeweller.com/jewellery/chains.html",
+    "text": "Gold Chains",
+    "title": "",
+    "className": ""
+  },
+  {
+    "url": "https://www.pcjeweller.com/jewellery/gold-bracelets-and-bangles.html",
+    "text": "Bracelet and Bangles",
+    "title": "",
+    "className": ""
+  },
+  {
+    "url": "https://www.pcjeweller.com/jewellery/gold-nose-pins.html",
+    "text": "Nose Pins",
+    "title": "",
+    "className": ""
+  },
+  {
+    "url": "https://www.pcjeweller.com/jewellery/gold-necklaces.html",
+    "text": "Necklace",
+    "title": "",
+    "className": ""
+  },
+  {
+    "url": "https://www.pcjeweller.com/jewellery/gold-mangalsutra.html",
+    "text": "Mangalsutra",
+    "title": "",
+    "className": ""
+  },
+  {
+    "url": "https://www.pcjeweller.com/jewellery/gold.html",
+    "text": "View All",
+    "title": "",
+    "className": ""
+  },
+  {
+    "url": "https://www.pcjeweller.com/jewellery/diamond-pendants.html",
+    "text": "Pendants",
+    "title": "",
+    "className": ""
+  },
+  {
+    "url": "https://www.pcjeweller.com/jewellery/diamond-bracelet-and-bangles.html",
+    "text": "Bracelet and Bangles",
+    "title": "",
+    "className": ""
+  },
+  {
+    "url": "https://www.pcjeweller.com/jewellery/diamond-nose-pins.html",
+    "text": "Nose Pins",
+    "title": "",
+    "className": ""
+  },
+  {
+    "url": "https://www.pcjeweller.com/jewellery/diamond-mangalsutra.html",
+    "text": "Mangalsutra",
+    "title": "",
+    "className": ""
+  },
+  {
+    "url": "https://www.pcjeweller.com/jewellery/diamond-necklace.html",
+    "text": "Necklace",
+    "title": "",
+    "className": ""
+  },
+  {
+    "url": "https://www.pcjeweller.com/jewellery/diamond-men-jewellery.html",
+    "text": "Men's Jewellery",
+    "title": "",
+    "className": ""
+  },
+  {
+    "url": "https://www.pcjeweller.com/jewellery/diamond.html",
+    "text": "View All",
+    "title": "",
+    "className": ""
+  },
+  {
+    "url": "https://www.pcjeweller.com/all-jewellery/silver-collections.html",
+    "text": "Silver",
+    "title": "",
+    "className": ""
+  },
+  {
+    "url": "https://www.pcjeweller.com/jewellery/silver-pendants.html",
+    "text": "Pendants",
+    "title": "",
+    "className": ""
+  },
+  {
+    "url": "https://www.pcjeweller.com/jewellery/silver.html",
+    "text": "View All",
+    "title": "",
+    "className": ""
+  },
+  {
+    "url": "https://www.pcjeweller.com/jewellery/gemstone-pendants.html",
+    "text": "Pendants",
+    "title": "",
+    "className": ""
+  },
+  {
+    "url": "https://www.pcjeweller.com/jewellery/gemstone.html",
+    "text": "View All",
+    "title": "",
+    "className": ""
+  },
+  {
+    "url": "https://www.pcjeweller.com/all-collections.html",
+    "text": "Collections",
+    "title": "",
+    "className": ""
+  },
+  {
+    "url": "https://www.pcjeweller.com/collections/hand-mangalsutra.html",
+    "text": "Hand Mangalsutra",
+    "title": "",
+    "className": ""
+  },
+  {
+    "url": "https://www.pcjeweller.com/collections/dashavatar.html",
+    "text": "Dashavatar",
+    "title": "",
+    "className": ""
+  },
+  {
+    "url": "https://www.pcjeweller.com/collections/azva.html",
+    "text": "Azva",
+    "title": "",
+    "className": ""
+  },
+  {
+    "url": "https://www.pcjeweller.com/collections/religious.html",
+    "text": "Religious",
+    "title": "",
+    "className": ""
+  },
+  {
+    "url": "https://www.pcjeweller.com/collections/plique-a-jour.html",
+    "text": "Plique-a'-jour Collection",
+    "title": "",
+    "className": ""
+  },
+  {
+    "url": "https://www.pcjeweller.com/collections/mask.html",
+    "text": "Mask & Accessories",
+    "title": "",
+    "className": ""
+  },
+  {
+    "url": "https://www.pcjeweller.com/collections/expresso.html",
+    "text": "Expresso",
+    "title": "",
+    "className": ""
+  },
+  {
+    "url": "https://www.pcjeweller.com/collections/amalia-collection.html",
+    "text": "Amalia",
+    "title": "",
+    "className": ""
+  },
+  {
+    "url": "https://www.pcjeweller.com/collections/pik-see.html",
+    "text": "Pik See",
+    "title": "",
+    "className": ""
+  },
+  {
+    "url": "https://www.pcjeweller.com/collections/la-danza.html",
+    "text": "La Danza",
+    "title": "",
+    "className": ""
+  },
+  {
+    "url": "https://www.pcjeweller.com/ready-to-ship.html",
+    "text": "Ready To Ship",
+    "title": "",
+    "className": ""
+  },
+  {
+    "url": "https://www.pcjeweller.com/gold-coins.html",
+    "text": "Coins",
+    "title": "",
+    "className": ""
+  },
+  {
+    "url": "https://www.pcjeweller.com/gold-coins/500mg.html",
+    "text": "0.5 gram",
+    "title": "",
+    "className": ""
+  },
+  {
+    "url": "https://www.pcjeweller.com/gold-coins/1-gram-gold-coins.html",
+    "text": "1 gram",
+    "title": "",
+    "className": ""
+  },
+  {
+    "url": "https://www.pcjeweller.com/gold-coins/2-gram-gold-coins.html",
+    "text": "2 gram",
+    "title": "",
+    "className": ""
+  },
+  {
+    "url": "https://www.pcjeweller.com/gold-coins/4-gram-gold-coins.html",
+    "text": "4 gram",
+    "title": "",
+    "className": ""
+  },
+  {
+    "url": "https://www.pcjeweller.com/gold-coins/5-gram-gold-coins.html",
+    "text": "5 gram",
+    "title": "",
+    "className": ""
+  },
+  {
+    "url": "https://www.pcjeweller.com/gold-coins/8-gram-gold-coins.html",
+    "text": "8 gram",
+    "title": "",
+    "className": ""
+  },
+  {
+    "url": "https://www.pcjeweller.com/gold-coins/10-gram-gold-coins.html",
+    "text": "10 gram",
+    "title": "",
+    "className": ""
+  },
+  {
+    "url": "https://www.pcjeweller.com/gold-coins/20-gram-gold-coins.html",
+    "text": "20 gram",
+    "title": "",
+    "className": ""
+  },
+  {
+    "url": "https://www.pcjeweller.com/gold-coins/floral.html",
+    "text": "Floral",
+    "title": "",
+    "className": ""
+  },
+  {
+    "url": "https://www.pcjeweller.com/gold-coins/laxmi-ganesh.html",
+    "text": "Laxmi Ganesh",
+    "title": "",
+    "className": ""
+  },
+  {
+    "url": "https://www.pcjeweller.com/silver-coins.html",
+    "text": "Silver",
+    "title": "",
+    "className": ""
+  },
+  {
+    "url": "https://www.pcjeweller.com/special-offer/30-off-on-diamond.html",
+    "text": "",
+    "title": "",
+    "className": ""
+  },
+  {
+    "url": "https://www.pcjeweller.com/special-offer/50-off-on-diamond.html",
+    "text": "",
+    "title": "",
+    "className": ""
+  },
+  {
+    "url": "https://www.pcjeweller.com/digital-gold.html",
+    "text": "Digital Gold",
+    "title": "",
+    "className": ""
+  },
+  {
+    "url": "https://www.pcjeweller.com/all-jewellery.html#",
+    "text": "",
+    "title": "",
+    "className": "ui-slider-handle ui-state-default ui-corner-all"
+  },
+  {
+    "url": "https://www.pcjeweller.com/jewellery/colour-candy.html",
+    "text": "Colour Candy",
+    "title": "",
+    "className": "attrFilterURL"
+  },
+  {
+    "url": "https://www.pcjeweller.com/collections/tattvam.html",
+    "text": "Tattvam",
+    "title": "",
+    "className": "attrFilterURL"
+  },
+  {
+    "url": "https://www.pcjeweller.com/the-roxie-silver-diamond-earring-ships-faster.html?bid=MzA2",
+    "text": "",
+    "title": "View Details",
+    "className": ""
+  },
+  {
+    "url": "https://www.pcjeweller.com/the-roxie-silver-diamond-earring-ships-faster.html",
+    "text": "BUY NOW",
+    "title": "",
+    "className": "btn btn-primary btn-sm col-xs-6 font-semibold"
+  },
+  {
+    "url": "https://www.pcjeweller.com/the-kiya-diamond-silver-earring-ships-faster.html?bid=MzA2",
+    "text": "",
+    "title": "View Details",
+    "className": ""
+  },
+  {
+    "url": "https://www.pcjeweller.com/the-kiya-diamond-silver-earring-ships-faster.html",
+    "text": "BUY NOW",
+    "title": "",
+    "className": "btn btn-primary btn-sm col-xs-6 font-semibold"
+  },
+  {
+    "url": "https://www.pcjeweller.com/the-samir-diamond-silver-earring-ships-faster.html?bid=MzA2",
+    "text": "",
+    "title": "View Details",
+    "className": ""
+  },
+  {
+    "url": "https://www.pcjeweller.com/the-samir-diamond-silver-earring-ships-faster.html",
+    "text": "BUY NOW",
+    "title": "",
+    "className": "btn btn-primary btn-sm col-xs-6 font-semibold"
+  },
+  {
+    "url": "https://www.pcjeweller.com/the-akeelah-diamond-silver-earring-ships-faster.html?bid=MzA2",
+    "text": "",
+    "title": "View Details",
+    "className": ""
+  },
+  {
+    "url": "https://www.pcjeweller.com/the-akeelah-diamond-silver-earring-ships-faster.html",
+    "text": "BUY NOW",
+    "title": "",
+    "className": "btn btn-primary btn-sm col-xs-6 font-semibold"
+  },
+  {
+    "url": "https://www.pcjeweller.com/the-sam-diamond-silver-earring-ships-faster.html?bid=MzA2",
+    "text": "",
+    "title": "View Details",
+    "className": ""
+  },
+  {
+    "url": "https://www.pcjeweller.com/the-sam-diamond-silver-earring-ships-faster.html",
+    "text": "BUY NOW",
+    "title": "",
+    "className": "btn btn-primary btn-sm col-xs-6 font-semibold"
+  },
+  {
+    "url": "https://www.pcjeweller.com/the-dariana-diamond-silver-earring-ships-faster.html?bid=MzA2",
+    "text": "",
+    "title": "View Details",
+    "className": ""
+  },
+  {
+    "url": "https://www.pcjeweller.com/the-dariana-diamond-silver-earring-ships-faster.html",
+    "text": "BUY NOW",
+    "title": "",
+    "className": "btn btn-primary btn-sm col-xs-6 font-semibold"
+  },
+  {
+    "url": "https://www.pcjeweller.com/the-montserrat-diamond-silver-earring-ships-faster.html?bid=MzA2",
+    "text": "",
+    "title": "View Details",
+    "className": ""
+  },
+  {
+    "url": "https://www.pcjeweller.com/the-montserrat-diamond-silver-earring-ships-faster.html",
+    "text": "BUY NOW",
+    "title": "",
+    "className": "btn btn-primary btn-sm col-xs-6 font-semibold"
+  },
+  {
+    "url": "https://www.pcjeweller.com/the-salvatore-diamond-silver-earring-ships-faster.html?bid=MzA2",
+    "text": "",
+    "title": "View Details",
+    "className": ""
+  },
+  {
+    "url": "https://www.pcjeweller.com/the-salvatore-diamond-silver-earring-ships-faster.html",
+    "text": "BUY NOW",
+    "title": "",
+    "className": "btn btn-primary btn-sm col-xs-6 font-semibold"
+  },
+  {
+    "url": "https://www.pcjeweller.com/the-zion-diamond-silver-earring-ships-faster.html?bid=MzA2",
+    "text": "",
+    "title": "View Details",
+    "className": ""
+  },
+  {
+    "url": "https://www.pcjeweller.com/the-zion-diamond-silver-earring-ships-faster.html",
+    "text": "BUY NOW",
+    "title": "",
+    "className": "btn btn-primary btn-sm col-xs-6 font-semibold"
+  },
+  {
+    "url": "https://www.pcjeweller.com/the-zev-diamond-silver-earring-ships-faster.html?bid=MzA2",
+    "text": "",
+    "title": "View Details",
+    "className": ""
+  },
+  {
+    "url": "https://www.pcjeweller.com/the-zev-diamond-silver-earring-ships-faster.html",
+    "text": "BUY NOW",
+    "title": "",
+    "className": "btn btn-primary btn-sm col-xs-6 font-semibold"
+  },
+  {
+    "url": "https://www.pcjeweller.com/the-miriah-diamond-silver-earring-ships-faster.html?bid=MzA2",
+    "text": "",
+    "title": "View Details",
+    "className": ""
+  },
+  {
+    "url": "https://www.pcjeweller.com/the-miriah-diamond-silver-earring-ships-faster.html",
+    "text": "BUY NOW",
+    "title": "",
+    "className": "btn btn-primary btn-sm col-xs-6 font-semibold"
+  },
+  {
+    "url": "https://www.pcjeweller.com/the-brittnay-diamond-silver-earring-ships-faster.html?bid=MzA2",
+    "text": "",
+    "title": "View Details",
+    "className": ""
+  },
+  {
+    "url": "https://www.pcjeweller.com/the-brittnay-diamond-silver-earring-ships-faster.html",
+    "text": "BUY NOW",
+    "title": "",
+    "className": "btn btn-primary btn-sm col-xs-6 font-semibold"
+  },
+  {
+    "url": "https://www.pcjeweller.com/about-us.html",
+    "text": "About Us",
+    "title": "",
+    "className": ""
+  },
+  {
+    "url": "https://www.pcjeweller.com/contact-us.html",
+    "text": "Contact Us",
+    "title": "",
+    "className": ""
+  },
+  {
+    "url": "https://www.pcjeweller.com/faqs.html",
+    "text": "FAQs",
+    "title": "",
+    "className": ""
+  },
+  {
+    "url": "https://www.pcjeweller.com/our-policies/icici-bank-cashback-offer-tnc.html",
+    "text": "ICICI Cashback offer t&c",
+    "title": "",
+    "className": ""
+  },
+  {
+    "url": "https://www.pcjeweller.com/our-policies/return-exchange-policy-pcj.html",
+    "text": "Return & Exchange Policy",
+    "title": "",
+    "className": ""
+  },
+  {
+    "url": "https://www.pcjeweller.com/our-policies/cancellation-policy-pcj.html",
+    "text": "Cancellation Policy",
+    "title": "",
+    "className": ""
+  },
+  {
+    "url": "https://www.pcjeweller.com/our-policies/buyback-policy-pcj.html",
+    "text": "Buyback Policy",
+    "title": "",
+    "className": ""
+  },
+  {
+    "url": "https://www.pcjeweller.com/our-policies/shipping-policy-pcj.html",
+    "text": "Shipping Policy",
+    "title": "",
+    "className": ""
+  },
+  {
+    "url": "https://www.pcjeweller.com/our-policies/terms-conditions.html",
+    "text": "Terms & Conditions",
+    "title": "",
+    "className": ""
+  },
+  {
+    "url": "https://www.pcjeweller.com/terms-conditions-and-privacy-policy.html",
+    "text": "Privacy Policy",
+    "title": "",
+    "className": ""
+  },
+  {
+    "url": "https://www.pcjeweller.com/track-your-order.html",
+    "text": "Track Your Order",
+    "title": "",
+    "className": ""
+  },
+  {
+    "url": "https://www.pcjeweller.com/price-match-guarantee.html",
+    "text": "Best Prices Assurance",
+    "title": "",
+    "className": ""
+  },
+  {
+    "url": "https://www.pcjeweller.com/jewellery-makeover.html",
+    "text": "Jewellery Makeover",
+    "title": "",
+    "className": ""
+  },
+  {
+    "url": "https://www.pcjeweller.com/customer-delight/sbi-offers.html",
+    "text": "SBI Offers",
+    "title": "",
+    "className": ""
+  },
+  {
+    "url": "https://www.pcjeweller.com/diamond-education.html",
+    "text": "Diamond Education",
+    "title": "",
+    "className": ""
+  },
+  {
+    "url": "https://www.pcjeweller.com/metal-guide.html",
+    "text": "Metal Guide",
+    "title": "",
+    "className": ""
+  },
+  {
+    "url": "https://www.pcjeweller.com/setting-guide.html",
+    "text": "Setting Guide",
+    "title": "",
+    "className": ""
+  },
+  {
+    "url": "https://www.pcjeweller.com/icici-bank-cashback-offer-tnc.html",
+    "text": "ICICI Cashback offer t&c",
+    "title": "",
+    "className": ""
+  },
+  {
+    "url": "https://www.pcjeweller.com/return-exchange-policy-pcj.html",
+    "text": "Return & Exchange Policy",
+    "title": "",
+    "className": ""
+  },
+  {
+    "url": "https://www.pcjeweller.com/cancellation-policy-pcj.html",
+    "text": "Cancellation Policy",
+    "title": "",
+    "className": ""
+  },
+  {
+    "url": "https://www.pcjeweller.com/buyback-policy-pcj.html",
+    "text": "Buyback Policy",
+    "title": "",
+    "className": ""
+  },
+  {
+    "url": "https://www.pcjeweller.com/shipping-policy-pcj.html",
+    "text": "Shipping Policy",
+    "title": "",
+    "className": ""
+  },
+  {
+    "url": "http://corporate.pcjeweller.com/",
+    "text": "Corporate",
+    "title": "",
+    "className": ""
+  },
+  {
+    "url": "http://corporate.pcjeweller.com/investors/",
+    "text": "Investors",
+    "title": "",
+    "className": ""
+  },
+  {
+    "url": "https://www.pcjeweller.com/customer-support.html",
+    "text": "Customer Support",
+    "title": "",
+    "className": ""
+  },
+  {
+    "url": "https://facebook.com/PCJINDIA",
+    "text": "",
+    "title": "",
+    "className": "icon-facebook2"
+  },
+  {
+    "url": "https://in.pinterest.com/pcjeweller/",
+    "text": "",
+    "title": "",
+    "className": "icon-pinterest"
+  },
+  {
+    "url": "https://twitter.com/PCJeweller",
+    "text": "",
+    "title": "",
+    "className": "icon-twitter"
+  },
+  {
+    "url": "https://www.instagram.com/pc_jeweller/",
+    "text": "",
+    "title": "",
+    "className": "icon-instagram"
+  },
+  {
+    "url": "http://oorjit.com/",
+    "text": "Powered by oorjit.com",
+    "title": "",
+    "className": "pull-right"
+  },
+  {
+    "url": "https://www.pcjeweller.com/privacy-statements.html",
+    "text": "Privacy Policy",
+    "title": "",
+    "className": ""
+  },
+  {
+    "url": "https://www.pcjeweller.com/terms-and-conditions.html",
+    "text": "Terms and Conditions",
+    "title": "",
+    "className": ""
+  }
+]
