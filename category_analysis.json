@@ -1,0 +1,395 @@
+{
+  "rings": [
+    {
+      "url": "https://www.pcjeweller.com/jewellery/rings.html",
+      "text": "Rings",
+      "path": "/jewellery/rings.html"
+    },
+    {
+      "url": "https://www.pcjeweller.com/jewellery/best-seller/rings.html",
+      "text": "",
+      "path": "/jewellery/best-seller/rings.html"
+    },
+    {
+      "url": "https://www.pcjeweller.com/jewellery/daily-wear-rings.html",
+      "text": "Daily Wear",
+      "path": "/jewellery/daily-wear-rings.html"
+    },
+    {
+      "url": "https://www.pcjeweller.com/jewellery/engagement-rings.html",
+      "text": "Engagement",
+      "path": "/jewellery/engagement-rings.html"
+    },
+    {
+      "url": "https://www.pcjeweller.com/jewellery/solitaire-rings.html",
+      "text": "Solitaire",
+      "path": "/jewellery/solitaire-rings.html"
+    },
+    {
+      "url": "https://www.pcjeweller.com/jewellery/cocktail-rings.html",
+      "text": "Cocktail",
+      "path": "/jewellery/cocktail-rings.html"
+    },
+    {
+      "url": "https://www.pcjeweller.com/jewellery/office-wear-rings.html",
+      "text": "Office Wear",
+      "path": "/jewellery/office-wear-rings.html"
+    },
+    {
+      "url": "https://www.pcjeweller.com/jewellery/men-rings.html",
+      "text": "Men's",
+      "path": "/jewellery/men-rings.html"
+    },
+    {
+      "url": "https://www.pcjeweller.com/jewellery/bands.html",
+      "text": "Bands",
+      "path": "/jewellery/bands.html"
+    },
+    {
+      "url": "https://www.pcjeweller.com/jewellery/initial-rings.html",
+      "text": "Initials",
+      "path": "/jewellery/initial-rings.html"
+    },
+    {
+      "url": "https://www.pcjeweller.com/jewellery/floral-rings.html",
+      "text": "Floral",
+      "path": "/jewellery/floral-rings.html"
+    },
+    {
+      "url": "https://www.pcjeweller.com/jewellery/heart-rings.html",
+      "text": "Hearts",
+      "path": "/jewellery/heart-rings.html"
+    },
+    {
+      "url": "https://www.pcjeweller.com/jewellery/round-rings.html",
+      "text": "Round",
+      "path": "/jewellery/round-rings.html"
+    },
+    {
+      "url": "https://www.pcjeweller.com/jewellery/square-rings.html",
+      "text": "Square",
+      "path": "/jewellery/square-rings.html"
+    },
+    {
+      "url": "https://www.pcjeweller.com/jewellery/triangle-rings.html",
+      "text": "Triangle",
+      "path": "/jewellery/triangle-rings.html"
+    },
+    {
+      "url": "https://www.pcjeweller.com/jewellery/below-10K-rings.html",
+      "text": "Below 10K",
+      "path": "/jewellery/below-10k-rings.html"
+    },
+    {
+      "url": "https://www.pcjeweller.com/jewellery/10kto20k-rings.html",
+      "text": "10K - 20K",
+      "path": "/jewellery/10kto20k-rings.html"
+    },
+    {
+      "url": "https://www.pcjeweller.com/jewellery/20kto30k-rings.html",
+      "text": "20K - 30K",
+      "path": "/jewellery/20kto30k-rings.html"
+    },
+    {
+      "url": "https://www.pcjeweller.com/jewellery/30kto50k-rings.html",
+      "text": "30K - 50K",
+      "path": "/jewellery/30kto50k-rings.html"
+    },
+    {
+      "url": "https://www.pcjeweller.com/jewellery/above-50k-rings.html",
+      "text": "Above 50K",
+      "path": "/jewellery/above-50k-rings.html"
+    },
+    {
+      "url": "https://www.pcjeweller.com/jewellery/diamond-rings.html",
+      "text": "Diamond",
+      "path": "/jewellery/diamond-rings.html"
+    },
+    {
+      "url": "https://www.pcjeweller.com/jewellery/gold-rings.html",
+      "text": "Gold",
+      "path": "/jewellery/gold-rings.html"
+    },
+    {
+      "url": "https://www.pcjeweller.com/jewellery/gemstone-rings.html",
+      "text": "Gemstone",
+      "path": "/jewellery/gemstone-rings.html"
+    },
+    {
+      "url": "https://www.pcjeweller.com/jewellery/silver-rings.html",
+      "text": "Silver",
+      "path": "/jewellery/silver-rings.html"
+    },
+    {
+      "url": "https://www.pcjeweller.com/jewellery/earrings.html",
+      "text": "Earrings",
+      "path": "/jewellery/earrings.html"
+    },
+    {
+      "url": "https://www.pcjeweller.com/jewellery/stud-earrings.html",
+      "text": "Stud",
+      "path": "/jewellery/stud-earrings.html"
+    },
+    {
+      "url": "https://www.pcjeweller.com/jewellery/drop-earrings.html",
+      "text": "Drop",
+      "path": "/jewellery/drop-earrings.html"
+    },
+    {
+      "url": "https://www.pcjeweller.com/jewellery/hoops-earrings.html",
+      "text": "Hoops",
+      "path": "/jewellery/hoops-earrings.html"
+    },
+    {
+      "url": "https://www.pcjeweller.com/jewellery/jhumkas-earrings.html",
+      "text": "Jhumkas",
+      "path": "/jewellery/jhumkas-earrings.html"
+    },
+    {
+      "url": "https://www.pcjeweller.com/jewellery/heart-earrings.html",
+      "text": "Heart",
+      "path": "/jewellery/heart-earrings.html"
+    },
+    {
+      "url": "https://www.pcjeweller.com/jewellery/oval-earrings.html",
+      "text": "Oval",
+      "path": "/jewellery/oval-earrings.html"
+    },
+    {
+      "url": "https://www.pcjeweller.com/jewellery/round-earrings.html",
+      "text": "Round",
+      "path": "/jewellery/round-earrings.html"
+    },
+    {
+      "url": "https://www.pcjeweller.com/jewellery/square-earrings.html",
+      "text": "Square",
+      "path": "/jewellery/square-earrings.html"
+    },
+    {
+      "url": "https://www.pcjeweller.com/jewellery/triangle-earrings.html",
+      "text": "Triangle",
+      "path": "/jewellery/triangle-earrings.html"
+    },
+    {
+      "url": "https://www.pcjeweller.com/jewellery/below-10k-earrings.html",
+      "text": "Below 10K",
+      "path": "/jewellery/below-10k-earrings.html"
+    },
+    {
+      "url": "https://www.pcjeweller.com/jewellery/10kto20k-earrings.html",
+      "text": "10K - 20K",
+      "path": "/jewellery/10kto20k-earrings.html"
+    },
+    {
+      "url": "https://www.pcjeweller.com/jewellery/20kto30k-earrings.html",
+      "text": "20K - 30K",
+      "path": "/jewellery/20kto30k-earrings.html"
+    },
+    {
+      "url": "https://www.pcjeweller.com/jewellery/30kto50k-earrings.html",
+      "text": "30K - 50K",
+      "path": "/jewellery/30kto50k-earrings.html"
+    },
+    {
+      "url": "https://www.pcjeweller.com/jewellery/above-50k-earrings.html",
+      "text": "Above 50K",
+      "path": "/jewellery/above-50k-earrings.html"
+    },
+    {
+      "url": "https://www.pcjeweller.com/jewellery/diamond-earrings.html",
+      "text": "Diamond",
+      "path": "/jewellery/diamond-earrings.html"
+    },
+    {
+      "url": "https://www.pcjeweller.com/jewellery/gold-earrings.html",
+      "text": "Gold",
+      "path": "/jewellery/gold-earrings.html"
+    },
+    {
+      "url": "https://www.pcjeweller.com/jewellery/gemstone-earrings.html",
+      "text": "Gemstone",
+      "path": "/jewellery/gemstone-earrings.html"
+    },
+    {
+      "url": "https://www.pcjeweller.com/jewellery/best-seller/earrings.html",
+      "text": "Earrings",
+      "path": "/jewellery/best-seller/earrings.html"
+    }
+  ],
+  "necklaces": [
+    {
+      "url": "https://www.pcjeweller.com/jewellery/gold-necklaces.html",
+      "text": "Necklace",
+      "path": "/jewellery/gold-necklaces.html"
+    },
+    {
+      "url": "https://www.pcjeweller.com/jewellery/diamond-necklace.html",
+      "text": "Necklace",
+      "path": "/jewellery/diamond-necklace.html"
+    }
+  ],
+  "earrings": [],
+  "bracelets": [
+    {
+      "url": "https://www.pcjeweller.com/jewellery/gold-bracelets-and-bangles.html",
+      "text": "Bracelet and Bangles",
+      "path": "/jewellery/gold-bracelets-and-bangles.html"
+    },
+    {
+      "url": "https://www.pcjeweller.com/jewellery/diamond-bracelet-and-bangles.html",
+      "text": "Bracelet and Bangles",
+      "path": "/jewellery/diamond-bracelet-and-bangles.html"
+    }
+  ],
+  "bangles": [],
+  "pendants": [
+    {
+      "url": "https://www.pcjeweller.com/jewellery/best-seller/pendants.html",
+      "text": "Pendants",
+      "path": "/jewellery/best-seller/pendants.html"
+    },
+    {
+      "url": "https://www.pcjeweller.com/jewellery/gold-pendants.html",
+      "text": "Pendants",
+      "path": "/jewellery/gold-pendants.html"
+    },
+    {
+      "url": "https://www.pcjeweller.com/jewellery/diamond-pendants.html",
+      "text": "Pendants",
+      "path": "/jewellery/diamond-pendants.html"
+    },
+    {
+      "url": "https://www.pcjeweller.com/jewellery/silver-pendants.html",
+      "text": "Pendants",
+      "path": "/jewellery/silver-pendants.html"
+    },
+    {
+      "url": "https://www.pcjeweller.com/jewellery/gemstone-pendants.html",
+      "text": "Pendants",
+      "path": "/jewellery/gemstone-pendants.html"
+    }
+  ],
+  "chains": [
+    {
+      "url": "https://www.pcjeweller.com/jewellery/chains.html",
+      "text": "Gold Chains",
+      "path": "/jewellery/chains.html"
+    },
+    {
+      "url": "https://www.pcjeweller.com/jewellery/gold-mangalsutra.html",
+      "text": "Mangalsutra",
+      "path": "/jewellery/gold-mangalsutra.html"
+    },
+    {
+      "url": "https://www.pcjeweller.com/jewellery/diamond-mangalsutra.html",
+      "text": "Mangalsutra",
+      "path": "/jewellery/diamond-mangalsutra.html"
+    }
+  ],
+  "sets": [],
+  "mens": [
+    {
+      "url": "https://www.pcjeweller.com/jewellery/diamond-men-jewellery.html",
+      "text": "Men's Jewellery",
+      "path": "/jewellery/diamond-men-jewellery.html"
+    }
+  ],
+  "collections": [],
+  "others": [
+    {
+      "url": "https://www.pcjeweller.com/jewellery/sui-dhaga.html",
+      "text": "Sui Dhaga",
+      "path": "/jewellery/sui-dhaga.html"
+    },
+    {
+      "url": "https://www.pcjeweller.com/jewellery/ear-cuffs.html",
+      "text": "Ear Cuffs",
+      "path": "/jewellery/ear-cuffs.html"
+    },
+    {
+      "url": "https://www.pcjeweller.com/jewellery/leaves-and-flowers.html",
+      "text": "Leaves & Flowers",
+      "path": "/jewellery/leaves-and-flowers.html"
+    },
+    {
+      "url": "https://www.pcjeweller.com/jewellery/best-sellers.html",
+      "text": "Best Sellers",
+      "path": "/jewellery/best-sellers.html"
+    },
+    {
+      "url": "https://www.pcjeweller.com/jewellery/best-seller/nose-pin.html",
+      "text": "Nose Pin",
+      "path": "/jewellery/best-seller/nose-pin.html"
+    },
+    {
+      "url": "https://www.pcjeweller.com/jewellery/best-sellers/under10k",
+      "text": "Below 10K",
+      "path": "/jewellery/best-sellers/under10k"
+    },
+    {
+      "url": "https://www.pcjeweller.com/jewellery/best-seller/10k-20k.html",
+      "text": "10K - 20K",
+      "path": "/jewellery/best-seller/10k-20k.html"
+    },
+    {
+      "url": "https://www.pcjeweller.com/jewellery/best-seller/20k-30k.html",
+      "text": "20K - 30K",
+      "path": "/jewellery/best-seller/20k-30k.html"
+    },
+    {
+      "url": "https://www.pcjeweller.com/jewellery/best-seller/30k-50k.html",
+      "text": "30K - 50K",
+      "path": "/jewellery/best-seller/30k-50k.html"
+    },
+    {
+      "url": "https://www.pcjeweller.com/jewellery/best-seller/above-50k.html",
+      "text": "Above 50K",
+      "path": "/jewellery/best-seller/above-50k.html"
+    },
+    {
+      "url": "https://www.pcjeweller.com/jewellery/best-sellers/diamond.html",
+      "text": "Diamond",
+      "path": "/jewellery/best-sellers/diamond.html"
+    },
+    {
+      "url": "https://www.pcjeweller.com/jewellery/best-sellers/gold.html",
+      "text": "Gold",
+      "path": "/jewellery/best-sellers/gold.html"
+    },
+    {
+      "url": "https://www.pcjeweller.com/jewellery/gold-nose-pins.html",
+      "text": "Nose Pins",
+      "path": "/jewellery/gold-nose-pins.html"
+    },
+    {
+      "url": "https://www.pcjeweller.com/jewellery/gold.html",
+      "text": "View All",
+      "path": "/jewellery/gold.html"
+    },
+    {
+      "url": "https://www.pcjeweller.com/jewellery/diamond-nose-pins.html",
+      "text": "Nose Pins",
+      "path": "/jewellery/diamond-nose-pins.html"
+    },
+    {
+      "url": "https://www.pcjeweller.com/jewellery/diamond.html",
+      "text": "View All",
+      "path": "/jewellery/diamond.html"
+    },
+    {
+      "url": "https://www.pcjeweller.com/jewellery/silver.html",
+      "text": "View All",
+      "path": "/jewellery/silver.html"
+    },
+    {
+      "url": "https://www.pcjeweller.com/jewellery/gemstone.html",
+      "text": "View All",
+      "path": "/jewellery/gemstone.html"
+    },
+    {
+      "url": "https://www.pcjeweller.com/jewellery/colour-candy.html",
+      "text": "Colour Candy",
+      "path": "/jewellery/colour-candy.html"
+    }
+  ]
+}

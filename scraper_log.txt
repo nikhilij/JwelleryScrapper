@@ -1,0 +1,133 @@
+2025-06-16 08:51:48,006 - INFO - ✅ CloudScraper session initialized
+2025-06-16 08:51:48,007 - INFO - 📁 Created output directories
+2025-06-16 08:51:48,007 - INFO - 🚀 STARTING CLOUDFLARE BYPASS SCRAPER
+2025-06-16 08:51:48,007 - INFO - ============================================================
+2025-06-16 08:51:48,008 - INFO - 📋 Loaded 6 categories
+2025-06-16 08:51:48,008 - INFO - 
+🏷️  CATEGORY: RINGS
+2025-06-16 08:51:48,008 - INFO - 📄 URLs to process: 43
+2025-06-16 08:51:48,008 - INFO - 
+🔄 Processing URL 1/2
+2025-06-16 08:51:48,008 - INFO - 
+🔍 SCRAPING CATEGORY: Rings
+2025-06-16 08:51:48,008 - INFO - 📄 URL: https://www.pcjeweller.com/jewellery/rings.html
+2025-06-16 08:51:48,008 - INFO - 🔍 Attempt 1: Fetching https://www.pcjeweller.com/jewellery/rings.html
+2025-06-16 08:51:49,231 - INFO - ✅ SUCCESS: https://www.pcjeweller.com/jewellery/rings.html (method: cloudscraper)
+2025-06-16 08:51:49,472 - INFO - 📦 Found 0 product links
+2025-06-16 08:51:49,472 - WARNING - ⚠️  No product links found for Rings
+2025-06-16 08:51:49,472 - INFO - ⏳ Waiting 11.0s before next URL...
+2025-06-16 08:52:00,494 - INFO - 
+🔄 Processing URL 2/2
+2025-06-16 08:52:00,495 - INFO - 
+🔍 SCRAPING CATEGORY: Rings
+2025-06-16 08:52:00,495 - INFO - 📄 URL: https://www.pcjeweller.com/jewellery/best-seller/rings.html
+2025-06-16 08:52:00,495 - INFO - 🔍 Attempt 1: Fetching https://www.pcjeweller.com/jewellery/best-seller/rings.html
+2025-06-16 08:52:01,126 - INFO - ✅ SUCCESS: https://www.pcjeweller.com/jewellery/best-seller/rings.html (method: cloudscraper)
+2025-06-16 08:52:01,312 - INFO - 📦 Found 0 product links
+2025-06-16 08:52:01,312 - WARNING - ⚠️  No product links found for Rings
+2025-06-16 08:52:01,312 - INFO - ⏳ Category completed. Waiting 28.2s before next category...
+2025-06-16 08:52:29,497 - INFO - 
+🏷️  CATEGORY: NECKLACES
+2025-06-16 08:52:29,497 - INFO - 📄 URLs to process: 2
+2025-06-16 08:52:29,497 - INFO - 
+🔄 Processing URL 1/2
+2025-06-16 08:52:29,497 - INFO - 
+🔍 SCRAPING CATEGORY: Gold Necklaces
+2025-06-16 08:52:29,498 - INFO - 📄 URL: https://www.pcjeweller.com/jewellery/gold-necklaces.html
+2025-06-16 08:52:29,498 - INFO - 🔍 Attempt 1: Fetching https://www.pcjeweller.com/jewellery/gold-necklaces.html
+2025-06-16 08:52:30,116 - INFO - ✅ SUCCESS: https://www.pcjeweller.com/jewellery/gold-necklaces.html (method: cloudscraper)
+2025-06-16 08:52:30,252 - INFO - 📦 Found 0 product links
+2025-06-16 08:52:30,252 - WARNING - ⚠️  No product links found for Gold Necklaces
+2025-06-16 08:52:30,252 - INFO - ⏳ Waiting 12.9s before next URL...
+2025-06-16 08:52:43,202 - INFO - 
+🔄 Processing URL 2/2
+2025-06-16 08:52:43,202 - INFO - 
+🔍 SCRAPING CATEGORY: Diamond Necklace
+2025-06-16 08:52:43,203 - INFO - 📄 URL: https://www.pcjeweller.com/jewellery/diamond-necklace.html
+2025-06-16 08:52:43,203 - INFO - 🔍 Attempt 1: Fetching https://www.pcjeweller.com/jewellery/diamond-necklace.html
+2025-06-16 08:52:43,741 - INFO - ✅ SUCCESS: https://www.pcjeweller.com/jewellery/diamond-necklace.html (method: cloudscraper)
+2025-06-16 08:52:44,074 - INFO - 📦 Found 0 product links
+2025-06-16 08:52:44,074 - WARNING - ⚠️  No product links found for Diamond Necklace
+2025-06-16 08:52:44,074 - INFO - ⏳ Category completed. Waiting 17.5s before next category...
+2025-06-16 08:53:01,552 - INFO - 
+🏷️  CATEGORY: BRACELETS
+2025-06-16 08:53:01,553 - INFO - 📄 URLs to process: 2
+2025-06-16 08:53:01,553 - INFO - 
+🔄 Processing URL 1/2
+2025-06-16 08:53:01,553 - INFO - 
+🔍 SCRAPING CATEGORY: Gold Bracelets And Bangles
+2025-06-16 08:53:01,553 - INFO - 📄 URL: https://www.pcjeweller.com/jewellery/gold-bracelets-and-bangles.html
+2025-06-16 08:53:01,553 - INFO - 🔍 Attempt 1: Fetching https://www.pcjeweller.com/jewellery/gold-bracelets-and-bangles.html
+2025-06-16 08:53:02,094 - INFO - ✅ SUCCESS: https://www.pcjeweller.com/jewellery/gold-bracelets-and-bangles.html (method: cloudscraper)
+2025-06-16 08:53:02,237 - INFO - 📦 Found 0 product links
+2025-06-16 08:53:02,237 - WARNING - ⚠️  No product links found for Gold Bracelets And Bangles
+2025-06-16 08:53:02,237 - INFO - ⏳ Waiting 14.5s before next URL...
+2025-06-16 08:53:16,774 - INFO - 
+🔄 Processing URL 2/2
+2025-06-16 08:53:16,774 - INFO - 
+🔍 SCRAPING CATEGORY: Diamond Bracelet And Bangles
+2025-06-16 08:53:16,774 - INFO - 📄 URL: https://www.pcjeweller.com/jewellery/diamond-bracelet-and-bangles.html
+2025-06-16 08:53:16,774 - INFO - 🔍 Attempt 1: Fetching https://www.pcjeweller.com/jewellery/diamond-bracelet-and-bangles.html
+2025-06-16 08:53:17,437 - INFO - ✅ SUCCESS: https://www.pcjeweller.com/jewellery/diamond-bracelet-and-bangles.html (method: cloudscraper)
+2025-06-16 08:53:17,600 - INFO - 📦 Found 0 product links
+2025-06-16 08:53:17,601 - WARNING - ⚠️  No product links found for Diamond Bracelet And Bangles
+2025-06-16 08:53:17,601 - INFO - ⏳ Category completed. Waiting 17.5s before next category...
+2025-06-16 08:53:35,116 - INFO - 
+🏷️  CATEGORY: PENDANTS
+2025-06-16 08:53:35,116 - INFO - 📄 URLs to process: 5
+2025-06-16 08:53:35,117 - INFO - 
+🔄 Processing URL 1/2
+2025-06-16 08:53:35,117 - INFO - 
+🔍 SCRAPING CATEGORY: Pendants
+2025-06-16 08:53:35,117 - INFO - 📄 URL: https://www.pcjeweller.com/jewellery/best-seller/pendants.html
+2025-06-16 08:53:35,117 - INFO - 🔍 Attempt 1: Fetching https://www.pcjeweller.com/jewellery/best-seller/pendants.html
+2025-06-16 08:53:35,614 - INFO - ✅ SUCCESS: https://www.pcjeweller.com/jewellery/best-seller/pendants.html (method: cloudscraper)
+2025-06-16 08:53:35,787 - INFO - 📦 Found 0 product links
+2025-06-16 08:53:35,787 - WARNING - ⚠️  No product links found for Pendants
+2025-06-16 08:53:35,787 - INFO - ⏳ Waiting 19.8s before next URL...
+2025-06-16 08:53:55,602 - INFO - 
+🔄 Processing URL 2/2
+2025-06-16 08:53:55,602 - INFO - 
+🔍 SCRAPING CATEGORY: Gold Pendants
+2025-06-16 08:53:55,602 - INFO - 📄 URL: https://www.pcjeweller.com/jewellery/gold-pendants.html
+2025-06-16 08:53:55,603 - INFO - 🔍 Attempt 1: Fetching https://www.pcjeweller.com/jewellery/gold-pendants.html
+2025-06-16 08:53:56,038 - INFO - ✅ SUCCESS: https://www.pcjeweller.com/jewellery/gold-pendants.html (method: cloudscraper)
+2025-06-16 08:53:56,203 - INFO - 📦 Found 0 product links
+2025-06-16 08:53:56,203 - WARNING - ⚠️  No product links found for Gold Pendants
+2025-06-16 08:53:56,203 - INFO - ⏳ Category completed. Waiting 21.6s before next category...
+2025-06-16 08:54:17,849 - INFO - 
+🏷️  CATEGORY: CHAINS
+2025-06-16 08:54:17,850 - INFO - 📄 URLs to process: 3
+2025-06-16 08:54:17,850 - INFO - 
+🔄 Processing URL 1/2
+2025-06-16 08:54:17,850 - INFO - 
+🔍 SCRAPING CATEGORY: Chains
+2025-06-16 08:54:17,850 - INFO - 📄 URL: https://www.pcjeweller.com/jewellery/chains.html
+2025-06-16 08:54:17,850 - INFO - 🔍 Attempt 1: Fetching https://www.pcjeweller.com/jewellery/chains.html
+2025-06-16 08:54:18,417 - INFO - ✅ SUCCESS: https://www.pcjeweller.com/jewellery/chains.html (method: cloudscraper)
+2025-06-16 08:54:18,552 - INFO - 📦 Found 0 product links
+2025-06-16 08:54:18,552 - WARNING - ⚠️  No product links found for Chains
+2025-06-16 08:54:18,552 - INFO - ⏳ Waiting 16.9s before next URL...
+2025-06-16 08:54:35,438 - INFO - 
+🔄 Processing URL 2/2
+2025-06-16 08:54:35,438 - INFO - 
+🔍 SCRAPING CATEGORY: Gold Mangalsutra
+2025-06-16 08:54:35,438 - INFO - 📄 URL: https://www.pcjeweller.com/jewellery/gold-mangalsutra.html
+2025-06-16 08:54:35,438 - INFO - 🔍 Attempt 1: Fetching https://www.pcjeweller.com/jewellery/gold-mangalsutra.html
+2025-06-16 08:54:36,104 - INFO - ✅ SUCCESS: https://www.pcjeweller.com/jewellery/gold-mangalsutra.html (method: cloudscraper)
+2025-06-16 08:54:36,260 - INFO - 📦 Found 0 product links
+2025-06-16 08:54:36,260 - WARNING - ⚠️  No product links found for Gold Mangalsutra
+2025-06-16 08:54:36,260 - INFO - ⏳ Category completed. Waiting 16.7s before next category...
+2025-06-16 08:54:52,997 - INFO - 
+🏷️  CATEGORY: MENS
+2025-06-16 08:54:52,997 - INFO - 📄 URLs to process: 1
+2025-06-16 08:54:52,998 - INFO - 
+🔄 Processing URL 1/1
+2025-06-16 08:54:52,998 - INFO - 
+🔍 SCRAPING CATEGORY: Diamond Men Jewellery
+2025-06-16 08:54:52,998 - INFO - 📄 URL: https://www.pcjeweller.com/jewellery/diamond-men-jewellery.html
+2025-06-16 08:54:52,998 - INFO - 🔍 Attempt 1: Fetching https://www.pcjeweller.com/jewellery/diamond-men-jewellery.html
+2025-06-16 08:54:53,464 - INFO - ✅ SUCCESS: https://www.pcjeweller.com/jewellery/diamond-men-jewellery.html (method: cloudscraper)
+2025-06-16 08:54:53,612 - INFO - 📦 Found 0 product links
+2025-06-16 08:54:53,612 - WARNING - ⚠️  No product links found for Diamond Men Jewellery
+2025-06-16 08:54:53,612 - INFO - ⏳ Category completed. Waiting 26.2s before next category...

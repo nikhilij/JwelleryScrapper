@@ -47,69 +47,85 @@ htmlcov/
 nosetests.xml
 coverage.xml
 *.cover
-*.py,cover
 .hypothesis/
 .pytest_cache/
 
-# Environments
-.env
-.venv
-env/
-venv/
-ENV/
-env.bak/
-venv.bak/
+# Translations
+*.mo
+*.pot
 
-# Scraped data (keep sample files, ignore large datasets)
-data/*.csv
-data/*.json
-!data/*sample*.csv
-!data/*sample*.json
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
 
-# Log files
-logs/*.log
+# Flask stuff:
+instance/
+.webassets-cache
 
-# Analysis outputs
-analysis_output/*.json
-analysis_output/*.csv
+# Scrapy stuff:
+.scrapy
 
-# Temporary files
-*.tmp
-*.temp
+# Sphinx documentation
+docs/_build/
+build/
 temp/
 
-# Browser data
-.playwright/
+# PyBuilder
+target/
 
-# IDE files
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# OS files
-.DS_Store
-Thumbs.db
-
-# Chrome driver cache
-.wdm/
-
-# Virtual environment
-venv/
-env/
-
-# Local configuration overrides
-config_local.py
-
-# Test outputs
-test_results/
-
-# Documentation builds
-docs/_build/
-
-# Jupyter Notebook checkpoints
+# Jupyter Notebook
 .ipynb_checkpoints
 
-# Package files
-*.tar.gz
-*.zip
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# pipenv
+Pipfile.lock
+
+# poetry
+poetry.lock
+
+# PDM
+pdm.lock
+__pypackages__/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# pytype
+.pytype/
+
+# Cython debug symbols
+cython_debug/
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Env files
+.env
+.env.*
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/

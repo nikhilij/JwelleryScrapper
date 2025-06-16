@@ -1,68 +1,43 @@
-"""
-Simple working example of the PC Jewellers scraper.
-This demonstrates the basic functionality with limited scraping.
-"""
+import cloudscraper
+import time
 
-from pc_jewellers_scraper_selenium import PCJewellersScraper
-from config import CATEGORIES
-
-def run_simple_test():
-    """Run a simple test with one category and few products."""
-    print("🚀 PC Jewellers Scraper - Simple Test")
-    print("=" * 50)
+def simple_test():
+    print("🧪 Simple CloudScraper Test")
+    print("=" * 30)
     
-    # Create scraper instance
-    scraper = PCJewellersScraper()
+    # Create scraper
+    scraper = cloudscraper.create_scraper()
     
-    # Modify config for testing
-    from config import SCRAPING_CONFIG
-    original_limit = SCRAPING_CONFIG["max_products_per_category"]
-    original_headless = SCRAPING_CONFIG["headless"]
-      # Set limits for testing
-    SCRAPING_CONFIG["max_products_per_category"] = 3  # Only 3 products
-    SCRAPING_CONFIG["headless"] = True  # Run in background
+    # Test URL
+    test_url = "https://www.pcjeweller.com/jewellery/rings.html"
     
     try:
-        print("🔧 Testing with first category only...")
-        test_category = CATEGORIES[0]  # Just test rings
+        print(f"🔍 Testing: {test_url}")
+        response = scraper.get(test_url, timeout=30)
+        print(f"Status: {response.status_code}")
+        print(f"Content length: {len(response.content)}")
         
-        print(f"📦 Scraping category: {test_category['name']}")
-        
-        # Initialize the driver
-        scraper.driver = scraper.create_driver()
-        
-        try:
-            products = scraper.scrape_category(test_category)
+        if response.status_code == 200:
+            print("✅ SUCCESS! Bot protection bypassed!")
             
-            print(f"✅ Successfully scraped {len(products)} products!")
+            # Check if it's the actual page (not a block page)
+            if "jewellery" in response.text.lower() or "ring" in response.text.lower():
+                print("✅ Got actual jewelry content!")
+                return True
+            else:
+                print("❌ Got blocked or redirect page")
+                return False
+        else:
+            print(f"❌ Failed with status: {response.status_code}")
+            return False
             
-            if products:
-                print("\n📋 Sample product data:")
-                sample = products[0]
-                for key, value in sample.items():
-                    print(f"  {key}: {str(value)[:60]}...")
-            
-            # Save the test data
-            scraper.scraped_data = products
-            scraper.session_stats["end_time"] = scraper.session_stats["start_time"]  # Fix for summary
-            scraper.save_data()
-            scraper.print_summary()
-            
-            return len(products) > 0
-            
-        finally:
-            # Always quit the driver
-            if scraper.driver:
-                scraper.driver.quit()
-        
     except Exception as e:
-        print(f"❌ Error during scraping: {str(e)}")
+        print(f"❌ Error: {str(e)}")
         return False
-    
-    finally:
-        # Restore original settings
-        SCRAPING_CONFIG["max_products_per_category"] = original_limit
-        SCRAPING_CONFIG["headless"] = original_headless
 
 if __name__ == "__main__":
-    run_simple_test()
+    success = simple_test()
+    if success:
+        print("\n🚀 Ready to proceed with full scraping!")
+    else:
+        print("\n⚠️  Need alternative approach")
